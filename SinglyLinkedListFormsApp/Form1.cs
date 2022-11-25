@@ -25,7 +25,7 @@ namespace SinglyLinkedListFormsApp
             newNode.name = nameTextBar.Text;
             newNode.surname = surNameTextBar.Text;
             newNode.no = Convert.ToInt32(noTextBar.Text);
-            if (first == null) // if List is empty
+            if (first == null)
             {
                 newNode.next = null;
                 first = newNode;
